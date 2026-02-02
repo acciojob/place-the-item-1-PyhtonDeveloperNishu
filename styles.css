@@ -1,2 +1,23 @@
-
-/* Your CSS Code here. */
+.con{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;	
+	flex-wrap:wrap;
+}
+.box{
+	height:70px;
+	width:70px;
+	font-size:30px;
+}
+.red{
+	background-color:red;
+	order:2;
+}
+.green{
+	background-color:green;
+	order:1;
+}
+.blue{
+	background-color:blue;
+	order:3;
+}
